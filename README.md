@@ -77,6 +77,12 @@ Le `DatabaseSeeder.php` initialise :
 
 ---
 
+## 🔗 Liens Utiles
+
+- **Frontend Repository** : [https://github.com/neostart-tech/dashboard-frontend](https://github.com/neostart-tech/dashboard-frontend)
+
+---
+
 ## 📝 À propos de Neo Start Technology
 Ce socle est maintenu pour garantir une cohérence technique sur tous nos projets et accélérer les phases de développement initiales.
 
