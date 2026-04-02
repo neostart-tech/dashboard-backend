@@ -9,6 +9,7 @@ Ce projet sert de base technique robuste pour les sites web standards de **Neo S
 - **Services** : Présentation et gestion dynamique des services proposés.
 - **Messagerie** : Gestion des messages entrants via le formulaire de contact, avec système de réponse par email intégré.
 - **Branding Dynamique** : Utilisation de la variable `APP_NAME` dans tout le projet (notamment les emails).
+- **Réinitialisation de Mot de Passe** : Système sécurisé de récupération de compte avec template d'e-mail premium et lien vers le frontend.
 - **Configuration Sociale & Contact** : Points d'entrée pour la modification dynamique des liens de réseaux sociaux et des coordonnées de l'agence.
 
 ---
@@ -40,6 +41,7 @@ Les routes sont définies dans `routes/api.php` et sont divisées en deux sectio
 - **Authentification** : `POST /login`
 - **Contenu** : `GET /services`, `GET /blogs`, `GET /liens`, `GET /contacts`
 - **Contact** : `POST /messages` (soumission du formulaire de contact)
+- **Mot de Passe** : `POST /forgot-password`, `POST /reset-password`
 
 #### Routes Protégées (Admin / Sanctum)
 - **Profil** : `PUT /profile/info`, `PUT /profile/password`
